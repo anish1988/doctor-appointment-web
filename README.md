@@ -3,10 +3,6 @@
 ## 👨‍💻 Actively Seeking Better Opportunities
 #### 🌟 Open to vacancies, jobs, or contract roles 🚀
 
-### Installation video
-[![YouTube](https://img.shields.io/badge/Watch_on-YouTube-red?logo=youtube)](https://youtu.be/L6cgb7I-Ap4)&nbsp;&nbsp;&nbsp;&nbsp;
-
-[![Preview](https://img.shields.io/badge/Preview_on-Netlify-brightgreen?logo=netlify)](https://dental-doctor-ujjal.netlify.app/)&nbsp;&nbsp;&nbsp;&nbsp;[![Live Preview](https://img.shields.io/badge/Live_Preview-Netlify-blue?logo=netlify)](https://dental-doctor-ujjal.netlify.app/)
 
 
 ##### To Setup Project Follow `project_setup.txt` documentation
@@ -58,7 +54,7 @@ To begin using the DoctorOnCall System, follow these simple steps:
 # Setup Documentation
 
 ## Clone The Project
-git clone https://github.com/Ujjalzaman/Doctor-Appointment.git
+git clone https://github.com/anish1988/doctor-appointment-web.git
 
 ### Install Frontend
 cd Doctor-Appointment
@@ -120,8 +116,7 @@ Note: Please note that these are general instructions for setting up an Express 
 - **TypeScript:** A superset of JavaScript that adds static typing, enhancing code quality and maintainability.
 - **Prisma**: A modern database toolkit for Node.js and TypeScript, used for database access and management.
 
- ## Project Screenshot
-![DoctorOnCall OverView](https://github.com/Ujjalzaman/Doctor-Appointment/assets/49386888/eeed56ce-3d9a-464d-91e5-588ea81ec5c0)
+
 
 ## Contributing:
 
@@ -148,5 +143,4 @@ Wait for the project's maintainers to review your pull request and provide feedb
 Thank you for considering this project. If you have any questions, please do not hesitate to contact me.
 
 
-## Contact Me
-Portfolio: [https://ujjalzaman.netlify.app/](https://ujjalzaman.netlify.app/)
+
