@@ -14,6 +14,7 @@ import { clickToCopyClipBoard } from '../../../utils/copyClipBoard';
 const Appointments = () => {
     const { id } = useParams();
     const { data, isError, isLoading } = useGetDoctorAppointmentsQuery(id);
+    console.log("UseGetDoctorAppointmentsQuery", data);
     const [updateAppointment, { isError: updateIsError, isSuccess, error }] = useUpdateAppointmentMutation();
 
     const updatedApppointmentStatus = (id, type) => {
@@ -34,8 +35,9 @@ const Appointments = () => {
         }
     }, [isSuccess, updateIsError, error])
 
-    const getInitPatientName = () => {
-        const fullName = `${data?.patient?.firstName ?? ''} ${data?.patient?.lastName ?? ''}`;
+    const getInitPatientName = (item) => {
+        console.log("FiesrName", item?.patient?.firstName);
+        const fullName = `${item?.patient?.firstName ?? ''} ${item?.patient?.lastName ?? ''}`;
         return fullName.trim() || "Private Patient";
     }
 
@@ -53,7 +55,7 @@ const Appointments = () => {
                                     <img src={data?.patient?.img ? data?.patient?.img : img} alt="" />
                                 </Link>
                                 <div className="patients-info">
-                                    <h5>{getInitPatientName()}</h5>
+                                    <h5>{getInitPatientName(item)}</h5>
                                     <Tooltip title="Copy Tracking Id">
                                         <Button>
                                             <h6>Tracking<Tag color="#87d068" className='ms-2 text-uppercase' onClick={() => clickToCopyClipBoard(item?.trackingId)}>{item?.trackingId}</Tag></h6>

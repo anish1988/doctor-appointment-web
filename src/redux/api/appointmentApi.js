@@ -87,14 +87,13 @@ export const appointmentApi = baseApi.injectEndpoints({
             }),*/
             query: (arg) => {
                 console.log("Query:", {
-                    url: `${APPOINTMENT_URL}/doctor/appointments`,
+                    url: `${APPOINTMENT_URL}/doctor/appointments/${arg}`,
                     method: 'GET',
                     params: arg
                 });// Check the value of arg in the console
                 return {
-                    url: `${APPOINTMENT_URL}/doctor/appointments`,
-                    method: 'GET',
-                    params: arg
+                    url: `${APPOINTMENT_URL}/doctor/appointments/${arg}`,
+                    method: 'GET'
                 };
             },
             providesTags: [tagTypes.appointments]

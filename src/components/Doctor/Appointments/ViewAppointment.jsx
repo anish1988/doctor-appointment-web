@@ -16,11 +16,11 @@ const ViewAppointment = () => {
     console.log("IDD",id)
     const { data, isLoading, isError } = useGetDoctorAppointmentsQuery(id);
    // const { data, isLoading, isError } = getDoctorAppointmentsById;
-    console.log("getDoctorAppointmentsById" , isError);
+    console.log("getDoctorAppointmentsById" , data);
     let content = null;
     if (!isLoading && isError) content = <div>Something Went to Wrong23!</div>
     if (isLoading && !isError) content = <h2>Loading...</h2>
-    if (!isLoading && !isError && data?.id) content =
+    if (1==1) content =
         <>
             <page size="A4" className="container mx-auto border border-primary-subtle p-3 pb-3">
                 <div className='d-flex justify-content-between rounded p-2' style={{ background: '#f2f4fe' }}>

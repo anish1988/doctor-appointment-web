@@ -109,7 +109,7 @@ const getDoctorAppointmentsById = catchAsync(async (req: Request, res: Response)
 const getDoctorAppointmentsById = catchAsync(async (req: Request, res: Response) => {
     try {
         req.query.doctorId = '398b61d4-8139-42cb-8f92-9a199787b8c9';
-        //console.log("req.query", req.query);
+        console.log("req.query", req.query);
         const result = await AppointmentService.getDoctorAppointmentsById(req.query.doctorId, req.query);
         sendResponse(res, {
             statusCode: 200,
