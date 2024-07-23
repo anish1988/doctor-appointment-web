@@ -98,7 +98,7 @@ const DashboardSidebar = () => {
                                 </NavLink>
                             </li>
                             <li>
-                                <NavLink to={'/dashboard/my-patients'} activeClassName="active" end>
+                                <NavLink to={`/dashboard/my-patients/${data?.id}`} activeClassName="active" end>
                                     <FaUserInjured className="icon" />
                                     <span>My Patients</span>
                                 </NavLink>

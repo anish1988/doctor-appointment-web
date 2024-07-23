@@ -100,10 +100,17 @@ export const appointmentApi = baseApi.injectEndpoints({
             
         }),
         getDoctorPatients: build.query({
-            query: () => ({
-                url: `${APPOINTMENT_URL}/doctor/patients`,
-                method: 'GET'
-            }),
+            query: (doctorId) => {
+                console.log("Query:", {
+                    url: `${APPOINTMENT_URL}/doctor/patients/${doctorId}`,
+                    method: 'GET'
+                });// Check the value of arg in the console
+               
+                return {
+                    url: `${APPOINTMENT_URL}/doctor/patients/${doctorId}`,
+                    method: 'GET'
+                };
+            },
             providesTags: [tagTypes.appointments]
         }),
         getPatientInvoices: build.query({

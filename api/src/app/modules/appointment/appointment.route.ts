@@ -14,7 +14,7 @@ router.get('/patient/invoices',auth(AuthUser.PATIENT), AppointmentController.get
 router.get('/doctor/invoices',auth(AuthUser.DOCTOR), AppointmentController.getDoctorInvoices);
 */
 router.get('/doctor/appointments/:id', AppointmentController.getDoctorAppointmentsById);
-router.get('/doctor/patients',auth(AuthUser.DOCTOR), AppointmentController.getDoctorPatients);
+router.get('/doctor/patients/:id',auth(AuthUser.DOCTOR), AppointmentController.getDoctorPatients);
 
 router.get('/patient-payment-info/:id',auth(AuthUser.PATIENT, AuthUser.DOCTOR), AppointmentController.getPaymentInfoViaAppintmentId);
 

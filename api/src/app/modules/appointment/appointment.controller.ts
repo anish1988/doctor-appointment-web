@@ -140,7 +140,7 @@ const updateAppointmentByDoctor = catchAsync(async (req: Request, res: Response)
 })
 
 const getDoctorPatients = catchAsync(async (req: Request, res: Response) => {
-    //console.log("Ypu are in sssssss");
+    console.log("Ypu are in sssssss : ", req.user);
     const result = await AppointmentService.getDoctorPatients(req.user);
     sendResponse<Patient[]>(res, {
         statusCode: 200,

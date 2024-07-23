@@ -50,7 +50,7 @@ function App() {
         <Route element={<PrivateOutlet />}>
           <Route path='/dashboard/blogs' element={<Blogs />} />
           <Route path='/dashboard' element={<Dashboard />} />
-          <Route path='/dashboard/my-patients' element={<MyPatients />} />
+          <Route path='/dashboard/my-patients/:id' element={<MyPatients />} />
           <Route path='/dashboard/reviews' element={<Reviews />} />
           <Route path='/dashboard/schedule' element={<Schedule />} />
          {/* <Route path='/dashboard/appointments' element={<Appointments />} /> */}
