@@ -15,6 +15,8 @@ import '../../../../src/test.css';
 import { Tabs } from '@mui/base/Tabs';
 import { TabsList } from '@mui/base/TabsList';
 import Typography from '@mui/material/Typography';
+import MyPatientsAction from './MyPatientsAction';
+import ParentComponent from './ParentComponent';
 
 import { Tab } from '@mui/base/Tab';
 //import flex from 'antd';
@@ -95,10 +97,10 @@ const MyPatients = () => {
                             </div>
                             </Grid>
                             <Grid style={{margin: '0px 4px',height:'25px'}}>
-                                <div data-testid="test_patientThreeDots" id="A1LGOG3NI9P4" class="patient-list_dotImage__KkSQj" style={{backgroundImage: `url('${pImg}')`}}>
-                                    
+                            <ParentComponent />
+                               {/* <MyPatientsAction/>*/}
                                 
-                                </div>
+                                
                             </Grid>
 
                         </Grid>
