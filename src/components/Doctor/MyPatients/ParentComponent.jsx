@@ -4,7 +4,7 @@ import { Modal, Box, Button } from '@mui/material';
 import MenuComponent from '../MyPatients/MyPatientsAction';
 import ModalContent from './ModalContent';
 
-const ParentComponent = () => {
+const ParentComponent = (props) => {
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => setOpen(true);
@@ -12,7 +12,7 @@ const ParentComponent = () => {
 
   return (
     <div>
-       <MenuComponent handleOpen={handleOpen} />
+       <MenuComponent props={props} handleOpen={handleOpen} />
     { /* <ModalComponent open={open} handleClose={handleClose} /> */}
     </div>
   );

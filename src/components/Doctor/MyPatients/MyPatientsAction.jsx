@@ -8,20 +8,22 @@ import Box from '@mui/material/Box';
 import DeleteIcon from '@mui/icons-material/Delete';
 import BaseComponent from 'bootstrap/js/dist/base-component';
 import AddAppointmentForm from '../MyPatients/AddAppointmentForm';
+import { useNavigate } from 'react-router-dom';
 // import ParentComponent from './ParentComponent';
 // import MyPatientsModel from './MyPatientsModel';
 
-const MyPatientsAction = ({ handleOpen }) => {
+const MyPatientsAction = (props) => {
 
   //const [anchorEl, setAnchorEl] = React.useState(null);
   //const open = Boolean(anchorEl);
   const [anchorEl, setAnchorEl] = useState(null);
   const [openModal, setOpenModal] = useState(false);
 
-  const handleClick = (event) => {
+  /* const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
-  };
-
+  };*/
+  const navigate = useNavigate();
+  console.log("OrdersHeader Order table",props);
   const handleClose = () => {
     console.log("Anish");
     setAnchorEl(null);
@@ -42,6 +44,11 @@ const MyPatientsAction = ({ handleOpen }) => {
     setOpenModal(false);
   };
 
+  function handleClick() {
+    console.log("Anojs 123");
+    props.navigate(`/appointment`);
+  }
+
   return (
     <Box>
       <IconButton
@@ -59,7 +66,7 @@ const MyPatientsAction = ({ handleOpen }) => {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem style={{fontSize: 14}} onClick={handleOpenModal} >
+        <MenuItem style={{fontSize: 14}} onClick={handleClick} >
           <div> <DeleteIcon/></div>  
           <div>Add Appointment Anish</div>
         </MenuItem>

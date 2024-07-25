@@ -97,7 +97,7 @@ const MyPatients = () => {
                             </div>
                             </Grid>
                             <Grid style={{margin: '0px 4px',height:'25px'}}>
-                            <ParentComponent />
+                            <ParentComponent props={item} />
                                {/* <MyPatientsAction/>*/}
                                 
                                 
