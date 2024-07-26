@@ -6,23 +6,23 @@ import { AppointmentController } from './appointment.controller';
 
 const router = express.Router();
 
-//console.log("Ypu are in Appoinment Router here");
+
 router.get('/', AppointmentController.getAllAppointment);
 /*
 router.get('/patient/appointments',auth(AuthUser.PATIENT), AppointmentController.getPatientAppointmentById);
 router.get('/patient/invoices',auth(AuthUser.PATIENT), AppointmentController.getPatientPaymentInfo);
 router.get('/doctor/invoices',auth(AuthUser.DOCTOR), AppointmentController.getDoctorInvoices);
 */
-router.get('/doctor/appointments/:id', AppointmentController.getDoctorAppointmentsById);
+router.post('/doctor/appointments', AppointmentController.getDoctorAppointmentsById);
 router.get('/doctor/patients/:id',auth(AuthUser.DOCTOR), AppointmentController.getDoctorPatients);
-
+console.log("Ypu are in Appoinment Router here" , router);
 router.get('/patient-payment-info/:id',auth(AuthUser.PATIENT, AuthUser.DOCTOR), AppointmentController.getPaymentInfoViaAppintmentId);
 
 router.post('/tracking', AppointmentController.getAppointmentByTrackingId);
 router.post('/create', AppointmentController.createAppointment);
 router.post('/create-un-authenticate', AppointmentController.createAppointmentByUnAuthenticateUser);
 
-// router.get('/:id', AppointmentController.getAppointment);
+ router.get('/:id', AppointmentController.getAppointment);
 
 router.delete('/:id', AppointmentController.deleteAppointment);
 router.patch('/:id', auth(AuthUser.ADMIN, AuthUser.DOCTOR, AuthUser.PATIENT),AppointmentController.updateAppointment);

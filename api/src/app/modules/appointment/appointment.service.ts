@@ -191,6 +191,8 @@ const getAppointment = async (id: string): Promise<Appointments | null> => {
             patient: true
         }
     });
+
+    console.log("Result Get singlke patienmts",result);
     return result;
 }
 
@@ -365,7 +367,7 @@ const getDoctorAppointmentsById = async (user: any, filter: any): Promise<Appoin
     })
     if (!isDoctor) { throw new ApiError(httpStatus.NOT_FOUND, 'Doctor Account is not found !!') }
 */
-    let andCondition: any = { doctorId: userId };
+    let andCondition: any = { doctorId: user };
 
     if (filter.sortBy == 'today') {
         const today = moment().startOf('day').format('YYYY-MM-DD HH:mm:ss');
@@ -399,7 +401,7 @@ const getDoctorAppointmentsById = async (user: any, filter: any): Promise<Appoin
         console.log(`${e.query} ${e.params}`)
     });*/
     // print the query on raw formate
-    console.log("Result ",result);
+   // console.log("Result ",result);
 
     return result;
 }

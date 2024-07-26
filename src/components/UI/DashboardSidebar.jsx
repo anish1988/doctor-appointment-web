@@ -16,7 +16,7 @@ import {
 
 const DashboardSidebar = () => {
     const { data, role } = useAuthCheck();
-    console.log("Role :: ",data);
+   // console.log("Role :: ",data);
 
     return (
         <div className="profile-sidebar p-3 rounded">

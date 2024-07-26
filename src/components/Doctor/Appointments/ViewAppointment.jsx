@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import { useParams } from 'react-router-dom'
-import {  useGetDoctorAppointmentsQuery} from '../../../redux/api/appointmentApi';
+import {  useGetSingleAppointmentQuery} from '../../../redux/api/appointmentApi';
 import Header from '../../Shared/Header/Header';
 import Footer from '../../Shared/Footer/Footer';
 import moment from 'moment';
@@ -14,8 +14,8 @@ const ViewAppointment = () => {
     const ref = useRef();
     const { id } = useParams();
     console.log("IDD",id)
-    const { data, isLoading, isError } = useGetDoctorAppointmentsQuery(id);
-   // const { data, isLoading, isError } = getDoctorAppointmentsById;
+    //const { data, isLoading, isError } = useGetDoctorAppointmentsQuery(id);
+    const { data, isLoading, isError } = useGetSingleAppointmentQuery(id);
     console.log("getDoctorAppointmentsById" , data);
     let content = null;
     if (!isLoading && isError) content = <div>Something Went to Wrong23!</div>

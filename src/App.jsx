@@ -54,8 +54,8 @@ function App() {
           <Route path='/dashboard/reviews' element={<Reviews />} />
           <Route path='/dashboard/schedule' element={<Schedule />} />
          {/* <Route path='/dashboard/appointments' element={<Appointments />} /> */}
-         <Route path='/dashboard/appointments' element={<ViewAppointment />} />
-         <Route path='/dashboard/appointments/:id' element={<Appointments />}  />
+         <Route path='/dashboard/appointments/all' element={<Appointments />} />
+         <Route path='/dashboard/appointments/:id' element={<ViewAppointment />}  />
           <Route path='/dashboard/prescription' element={<Prescription />} />
           <Route path='/dashboard/prescription/:id' element={<PrescriptionView />} />
           <Route path='/dashboard/appointment/treatment/:id' element={<Treatment />} />

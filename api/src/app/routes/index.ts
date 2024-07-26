@@ -11,9 +11,10 @@ import { DoctorTimeSlotRouter } from '../modules/doctorTimeSlot/doctorTimeSlot.r
 import { BlogRoutes } from '../modules/blog/blog.route';
 import { MedicineRouter } from '../modules/medicines/medicine.route';
 import { ContactRouter } from '../modules/contact/contact.route';
+import path from 'path';
 
 const router = express.Router();
-console.log("Ypu are here");
+
 const moduleRoutes = [
     {
         path: '/doctor',

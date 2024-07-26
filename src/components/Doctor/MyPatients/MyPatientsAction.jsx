@@ -24,6 +24,10 @@ const MyPatientsAction = (props) => {
   };*/
   const navigate = useNavigate();
   console.log("OrdersHeader Order table",props);
+  const nestedProps = props.props && props.props.props ? props: {};
+  const { data } = nestedProps;
+  console.log("Patients Id",data?.id);
+  
   const handleClose = () => {
     console.log("Anish");
     setAnchorEl(null);
@@ -45,8 +49,8 @@ const MyPatientsAction = (props) => {
   };
 
   function handleClick() {
-    console.log("Anojs 123");
-    props.navigate(`/appointment`);
+    
+    navigate(`/appointment`);
   }
 
   return (

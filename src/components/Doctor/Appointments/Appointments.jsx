@@ -10,10 +10,16 @@ import { FaEye, FaCheck, FaTimes } from "react-icons/fa";
 import { Link ,useParams} from 'react-router-dom';
 import { FaClock, FaEnvelope, FaLocationArrow, FaPhoneAlt, FaBriefcaseMedical } from "react-icons/fa";
 import { clickToCopyClipBoard } from '../../../utils/copyClipBoard';
+import { getFromLocalStorage } from '../../../utils/local-storage';
+import {userData } from '../../../constant/storageKey';
 
 const Appointments = () => {
     const { id } = useParams();
-    const { data, isError, isLoading } = useGetDoctorAppointmentsQuery(id);
+    const authToken = getFromLocalStorage(userData);
+    //console.log("parseUserDatas userData authToken ",JSON.parse(authToken));
+    const parseUserDatas = JSON.parse(authToken);
+    console.log("parseUserDatas User Id ",parseUserDatas?.Last_Login_Id);
+    const { data, isError, isLoading } = useGetDoctorAppointmentsQuery(parseUserDatas?.Last_Login_Id);
     console.log("UseGetDoctorAppointmentsQuery", data);
     const [updateAppointment, { isError: updateIsError, isSuccess, error }] = useUpdateAppointmentMutation();
 
