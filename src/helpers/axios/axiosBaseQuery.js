@@ -11,6 +11,7 @@ export const axiosBaseQuery =
                     params,
                     headers: headers
                 })
+                console.log("axiosBaseQuery", result);
                 return result
             } catch (axiosError) {
                 const err = axiosError

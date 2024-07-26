@@ -51,7 +51,8 @@ const getAppointment = catchAsync(async (req: Request, res: Response) => {
 })
 
 const getAppointmentByTrackingId = catchAsync(async (req: Request, res: Response) => {
-    //console.log("Ypu are in 5555");
+    console.log("Ypu are in 5555",req.body);
+
     const result = await AppointmentService.getAppointmentByTrackingId(req.body);
     sendResponse<Appointments>(res, {
         statusCode: 200,
@@ -110,8 +111,8 @@ const getDoctorAppointmentsById = catchAsync(async (req: Request, res: Response)
     try {
         //req.query.doctorId = '398b61d4-8139-42cb-8f92-9a199787b8c9';
         
-        console.log("Hey Name is: ",req.body.params);
-        const result = await AppointmentService.getDoctorAppointmentsById(req.body.params, req.query);
+        console.log("Hey Name is: ",req.body);
+        const result = await AppointmentService.getDoctorAppointmentsById(req.body.LastLoginId, req.query);
         sendResponse(res, {
             statusCode: 200,
             message: 'Successfully Retrieve doctor apppointments !!',

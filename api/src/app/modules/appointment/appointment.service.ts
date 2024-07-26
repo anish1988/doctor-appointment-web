@@ -385,7 +385,7 @@ const getDoctorAppointmentsById = async (user: any, filter: any): Promise<Appoin
         }
     }
     const whereConditions = andCondition ? andCondition : {}
-
+    console.log("whereConditions", whereConditions);
     const result = await prisma.appointments.findMany({
         where: whereConditions,
         include: {

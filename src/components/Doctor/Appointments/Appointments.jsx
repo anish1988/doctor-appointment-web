@@ -19,7 +19,12 @@ const Appointments = () => {
     //console.log("parseUserDatas userData authToken ",JSON.parse(authToken));
     const parseUserDatas = JSON.parse(authToken);
     console.log("parseUserDatas User Id ",parseUserDatas?.Last_Login_Id);
-    const { data, isError, isLoading } = useGetDoctorAppointmentsQuery(parseUserDatas?.Last_Login_Id);
+    const doctorData = { LastLoginId: parseUserDatas?.Last_Login_Id }
+    
+    //const { data, isError, isLoading } = useGetDoctorAppointmentsQuery(parseUserDatas?.Last_Login_Id);
+    const  { data, isLoading, isError } = useGetDoctorAppointmentsQuery( doctorData );
+    //const 
+
     console.log("UseGetDoctorAppointmentsQuery", data);
     const [updateAppointment, { isError: updateIsError, isSuccess, error }] = useUpdateAppointmentMutation();
 
@@ -39,7 +44,7 @@ const Appointments = () => {
         if (isError) {
             message.error(error?.data?.message);
         }
-    }, [isSuccess, updateIsError, error])
+    }, [isSuccess, updateIsError, error,doctorData])
 
     const getInitPatientName = (item) => {
         console.log("FiesrName", item?.patient?.firstName);

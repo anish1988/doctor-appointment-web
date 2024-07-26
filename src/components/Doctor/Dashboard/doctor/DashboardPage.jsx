@@ -7,10 +7,17 @@ import { Button, Tag, message } from 'antd';
 import CustomTable from '../../../UI/component/CustomTable';
 import { Tabs } from 'antd';
 import { Link } from 'react-router-dom';
+import { getFromLocalStorage } from '../../../../utils/local-storage';
+import {userData} from '../../../../constant/storageKey';
 
 const DashboardPage = () => {
     const [sortBy, setSortBy] = useState("upcoming");
-    const { data, refetch, isLoading } = useGetDoctorAppointmentsQuery({ sortBy });
+    const authToken = getFromLocalStorage(userData);
+    //console.log("parseUserDatas userData authToken ",JSON.parse(authToken));
+    const parseUserDatas = JSON.parse(authToken);
+    console.log("parseUserDatas User Id ",parseUserDatas?.Last_Login_Id);
+    
+    const { data, refetch, isLoading } = useGetDoctorAppointmentsQuery({ sortBy ,LastLoginId: parseUserDatas?.Last_Login_Id });
     const [updateAppointment, { isError, isSuccess, error }] = useUpdateAppointmentMutation();
 
     const handleOnselect = (value) => {

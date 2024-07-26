@@ -15,7 +15,7 @@ router.get('/doctor/invoices',auth(AuthUser.DOCTOR), AppointmentController.getDo
 */
 router.post('/doctor/appointments', AppointmentController.getDoctorAppointmentsById);
 router.get('/doctor/patients/:id',auth(AuthUser.DOCTOR), AppointmentController.getDoctorPatients);
-console.log("Ypu are in Appoinment Router here" , router);
+// console.log("Ypu are in Appoinment Router here" , router);
 router.get('/patient-payment-info/:id',auth(AuthUser.PATIENT, AuthUser.DOCTOR), AppointmentController.getPaymentInfoViaAppintmentId);
 
 router.post('/tracking', AppointmentController.getAppointmentByTrackingId);

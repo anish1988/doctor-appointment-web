@@ -21,6 +21,7 @@ instance.interceptors.request.use(function (config) {
 });
 
 instance.interceptors.response.use(function (response) {
+    console.log("axiosInstance Response",response);
     const responseObj = {
         data: response?.data?.data,
         meta: response?.data?.meta
