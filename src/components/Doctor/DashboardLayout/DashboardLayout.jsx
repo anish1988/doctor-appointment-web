@@ -5,6 +5,9 @@ import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import { Grid } from '@mui/material';
 import todayCollectionImg from '../../../images/today-collection-normal.jpg'
+import DescriptionIcon from '@mui/icons-material/Description';
+import CalendarMonthRoundedIcon from '@mui/icons-material/CalendarMonthRounded';
+import TabContext from '@mui/lab/TabContext';
 import img from '../../../images/avatar.jpg'
 import Avatar from '@mui/material/Avatar';
 //import DashboardTable from './Dashboardtable';
@@ -37,9 +40,12 @@ const DashboardLayout = ({ children }) => {
 						<Grid container={true} className='__doctor-dashboard-section' data-testid="appointments-page">
 							<Grid container={true} xs={12} className='__doctor-dashboard-section--grid-container'>
 								<div class="guided-tour-calendar" data-testid="test_dashboadGuidedTourCalendar">
-									<img src="/static/media/calendar-inactive-icon.73e9ea776db2d2fdf67f122a2087431b.svg" alt="Calendar" class="__doctor-dashboard-section--calender-normal" />
+									<CalendarMonthRoundedIcon className='__doctor-dashboard-section--calender-normal'/>
+									
 								</div>
-								<Button variant="outlined" className='btn not-today-btn' data-testid="test_dashboardDateToday">Today</Button>
+								<Button variant="outlined" className='btn not-today-btn' data-testid="test_dashboardDateToday">
+								<span class="label day-label-white">Today</span>
+								</Button>
 								<div className="__arrow-container">
 									<div className="__arrow-images" data-testid="test_dashboardDatePrevious">
 										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className="__normal-arrow">
@@ -96,10 +102,8 @@ const DashboardLayout = ({ children }) => {
 								</div>
 								<div className="__collection-summarized-clinic-reports-section">
 									<div className="collections " data-testid="test_dashboardTodaysCollection">
-									<img src={todayCollectionImg} alt="" className="img-fluid" />
-										<img className="collections__Img--normal" src={todayCollectionImg} alt=""/>
-										<img className="collections__Img--active" src={todayCollectionImg} alt=""/>
-										<div className="collections__main">
+											<DescriptionIcon className='collections__Img--normal'/>
+											<div className="collections__main">
 											<div className="collections__text">Jul 27th collection: </div>
 											<div className="collections__amount">
 												<div className=" collections__amount--static">0.00</div>
@@ -109,13 +113,17 @@ const DashboardLayout = ({ children }) => {
 									<div class="report-summary">
 										<label className="clinic-report-link guided-tour-dashboard-clinic-report " data-testid="test_dashboardViewClinicReport">
 											<div className="clinic-report-link__icon"></div>
+											<DescriptionIcon />
 											<span className="clinic-report-link__icon-text">View Clinic Report</span>
 										</label>
 									</div>
 								</div>
 							</Grid>
 						</Grid>
-						<Grid>
+						<Grid item xs={12} className='__appointment-tabs-container guided-tour-dashboard'>
+						<TabContext value={value}>
+
+							</TabContext>
 
 						</Grid>
 						<div>{children}</div>
