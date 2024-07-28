@@ -20,13 +20,32 @@ const DoctorDashCard = () => {
             amount: 85,
             date: "10 Jan 2024"
         }
+        ,
+        {
+            icon: <FaCalendarAlt className='icon danger' />,
+            title: 'Appointments',
+            amount: 85,
+            date: "10 Jan 2024"
+        },
+        {
+            icon: <FaCalendarAlt className='icon danger' />,
+            title: 'Appointments',
+            amount: 85,
+            date: "10 Jan 2024"
+        },
+        {
+            icon: <FaCalendarAlt className='icon danger' />,
+            title: 'Appointments',
+            amount: 85,
+            date: "10 Jan 2024"
+        }
     ]
     return (
 
         <div className="row mb-4 p-3 rounded" style={{ background: '#f8f9fa' }}>
             {
                 cardData.map((item, index) => (
-                    <div className="col-md-12 col-lg-4" key={index + 8}>
+                    <div className="col-md-6 col-lg-2" key={index + 8}>
                         <div className='d-flex gap-2 align-items-center dash-card'>
                             <div className='dash-card-icon'>
                                 {item.icon}

@@ -29766,7 +29766,7 @@ li * {
     background: var(--snuff);
     flex-direction: column!important;
     flex-wrap: nowrap!important;
-    height: 94%;
+  /*  height: 94%;*/
     padding: 1.5rem 1.5rem 0;
     row-gap: 15px
 }
