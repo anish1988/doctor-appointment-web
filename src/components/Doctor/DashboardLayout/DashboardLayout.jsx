@@ -6,7 +6,7 @@ import DashboardBanner from './DashboardBanner';
 import DashboardFilter from './DashboardFilter';
 import DashboardDahCard from './DashbaordDashCard';
 import { Grid } from '@mui/material';
-import todayCollectionImg from '../../../images/today-collection-normal.jpg'
+//import todayCollectionImg from '../../../images/today-collection-normal.jpg'
 import img from '../../../images/avatar.jpg'
 import Avatar from '@mui/material/Avatar';
 import DashboardTable from './DashboardTable';
@@ -52,7 +52,7 @@ const DashboardLayout = ({ children }) => {
     const parseUserDatas = JSON.parse(authToken);
     console.log("parseUserDatas User Id ",parseUserDatas?.Last_Login_Id);
     
-    const { data } = useGetDoctorAppointmentsQuery({ sortBy:'upcoming' ,LastLoginId: parseUserDatas?.Last_Login_Id });
+    const { data } = useGetDoctorAppointmentsQuery({ LastLoginId: parseUserDatas?.Last_Login_Id });
     console.log("useGetDoctorAppointmentsQuery new", data);
 	return (
 		<>

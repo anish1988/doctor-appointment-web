@@ -30763,7 +30763,7 @@ td.appointment-grid-cell.appointment-grid-cell-6 .status-label {
 }
 
 .clinic-report-link__icon {
-    background-image : url(./images/today-collection-normal.jpg);
+   /* background-image : url(./images/today-collection-normal.jpg);*/
     height: 30px;
     margin-right: 8px;
     width: 28px
@@ -30776,7 +30776,7 @@ td.appointment-grid-cell.appointment-grid-cell-6 .status-label {
 }
 
 .clinic-report-link:active .clinic-report-link__icon {
-    background-image : url(./images/today-collection-normal.jpg);
+  /*  background-image : url(./images/today-collection-normal.jpg);*/
    
 }
 
