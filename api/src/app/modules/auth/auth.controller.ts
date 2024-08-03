@@ -48,6 +48,7 @@ const PasswordResetConfirm = catchAsync(async (req: Request, res: Response) => {
 
 const VerifyUser = catchAsync(async (req: Request, res: Response) => {
     const { userId } = req.params;
+    console.log("req.params", req.params);
     const isUserExist = await prisma.doctor.findUnique({
         where: {
             id: userId
