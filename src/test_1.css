@@ -1,0 +1,2130 @@
+
+.styles_group-buttons__8x6TH {
+    height: 36px
+}
+
+.styles_group-buttons__8x6TH img {
+    margin-right: 5px
+}
+
+.styles_group-buttons__8x6TH .styles_switch-button-left__aRDDD {
+    border-radius: 8px 0 0 8px;
+    border-right: 0!important
+}
+
+.styles_group-buttons__8x6TH .styles_switch-button-right__d7n2T {
+    border-radius: 0 8px 8px 0
+}
+
+.styles_group-buttons__8x6TH .styles_button__GSgrF {
+    font-size: 13px;
+    justify-content: left;
+    text-align: left;
+    width: 136px
+}
+
+.styles_group-buttons__8x6TH .styles_button--selected__fwWZV  .styles_group-buttons__8x6TH .styles_button--selected__fwWZV:hover {
+    background: var(--scampi);
+    color: var(--white)
+}
+
+.styles_group-buttons__8x6TH .styles_button--unavailed__niPZi  .styles_group-buttons__8x6TH .styles_button--unavailed__niPZi:hover {
+    background: var(--alto8);
+    color: var(--oslo-gray)
+}
+
+.styles_group-buttons__8x6TH .styles_button--unselected__NEOok {
+    background: var(--white);
+    border: 1px solid var(--silver6);
+    color: var(--oslo-gray)
+}
+
+.styles_group-buttons__8x6TH .styles_button--unselected__NEOok:hover {
+    background: var(--white);
+    color: var(--oslo-gray)
+}
+
+.change-prescription-template {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 12px 22px
+}
+
+.change-prescription-template-title {
+    align-items: center;
+    color: var(--tundora);
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 8px
+}
+
+.change-prescription-template-title:hover {
+    text-decoration: underline
+}
+
+.change-prescription-template-title img {
+    margin-right: 12px
+}
+
+.change-prescription-template-title img:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.change-prescription-template-title label {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.change-prescription-template-title label:active {
+    color: var(--scarlet-gum)
+}
+
+.change-prescription-template-content {
+    margin-top: 16px
+}
+
+.change-prescription-template-images {
+    box-shadow: 0 3px 8px 0 rgba(var(--violet-rgb)  .25)
+}
+
+.change-prescription-template-images-selected {
+    box-shadow: 0 0 2px 2px var(--scampi)
+}
+
+.change-prescription-template-custom-image {
+    align-items: center;
+    border: 2px dashed var(--scampi);
+    color: var(--scampi);
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    justify-content: center;
+    margin-bottom: 4px;
+    width: 100%
+}
+
+.change-prescription-template-custom-text {
+    text-align: center
+}
+
+.margin-line {
+    border-left: 2px dashed;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: 1
+}
+
+.margin-line.bottom  .margin-line.top {
+    border-bottom: 2px dashed;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 100%
+}
+
+.margin-line.right {
+    right: 0
+}
+
+.margin-line.bottom {
+    bottom: 0;
+    top: auto
+}
+
+.handle {
+    width: 100%
+}
+
+.edit-prescription-accordion .content  .edit-prescription-accordion .handle label {
+    border-radius: 0;
+    box-shadow: 0 1px 2px var(--violet) 33;
+    font-family: Rubik;
+    margin: 0 auto;
+    width: 100%
+}
+
+.edit-prescription-accordion .handle label {
+    display: block
+}
+
+.edit-prescription-accordion {
+    margin-bottom: 1em
+}
+
+.edit-prescription-accordion .auto-height {
+    border-top: 0;
+    display: block;
+    height: auto;
+    padding: 10px 5px;
+    transition: .4s
+}
+
+.edit-prescription-accordion .none-height {
+    display: none;
+    height: 0
+}
+
+.edit-prescription-accordion .handle {
+    font-size: 16px;
+    margin: 0
+}
+
+.edit-prescription-accordion .handle label {
+    background-color: var(--snuff);
+    color: var(--violet);
+    font-size: 15px;
+    font-weight: 600;
+    height: 37px;
+    line-height: 1.25;
+    padding: 8px 0 8px 17px;
+    -webkit-user-select: none;
+    user-select: none
+}
+
+.edit-prescription-collapse-img {
+    left: 80px;
+    position: absolute;
+    top: 6px
+}
+
+.edit-prescription-collapse-img:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.edit-prescription-down-arrow-rotate {
+    transform: rotate(180deg);
+    transform-origin: center;
+    transition: .4s
+}
+
+.edit-prescription-accordion-checkbox  .edit-prescription-layout-checkbox {
+    align-items: center
+}
+
+.edit-prescription-accordion-checkbox .MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1  .edit-prescription-layout-checkbox .MuiTypography-root.MuiFormControlLabel-label.MuiTypography-body1 {
+    color: var(--violet);
+    font-family: Rubik!important;
+    font-size: 12px!important;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.edit-prescription-layout-checkbox-value {
+    color: var(--violet);
+    font-family: Rubik;
+    font-size: 12px;
+    line-height: 1.25
+}
+
+.edit-prescription-accordion-checkbox {
+    position: absolute;
+    right: -4px;
+    top: 3px;
+    width: 120px
+}
+
+.edit-prescription-logo {
+    height: 84px;
+    position: relative;
+    width: 100px
+}
+
+.edit-prescription-signature {
+    height: 105px;
+    position: relative;
+    width: 166px
+}
+
+.edit-prescription-logo img {
+    border: 1px solid var(--alto8);
+    cursor: default;
+    height: 76px;
+    margin: 9px 0 0;
+    opacity: .52;
+    width: 100px
+}
+
+.edit-prescription-logo svg  .edit-prescription-signature svg {
+    bottom: 0;
+    color: var(--silver6);
+    position: absolute;
+    right: 2px
+}
+
+.edit-prescription-divider {
+    background-color: var(--alto8);
+    height: 1px!important;
+    width: 90%!important
+}
+
+.edit-prescription-signature img {
+    background-color: var(--white);
+    border: 1px solid var(--oslo-gray);
+    cursor: default;
+    height: 97px;
+    margin: 9px 0 0;
+    opacity: .5;
+    width: 166px
+}
+
+.edit-prescription-accordion-header {
+    display: flex;
+    position: relative
+}
+
+.edit-prescription-accordion .__reset-margin-div {
+    padding: 0 12px 0 0!important;
+    text-align: right
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 12px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt._disabled {
+    color: var(--silver6);
+    text-decoration: none
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt._disabled:hover {
+    text-decoration: none
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt._disabled:active {
+    color: var(--silver6);
+    text-decoration: none
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt:hover {
+    text-decoration: underline
+}
+
+.edit-prescription-accordion .__reset-margin-div .__reset-margin-txt:active {
+    color: var(--scarlet-gum);
+    text-decoration: underline
+}
+
+.template01-profile-prescription-tittle {
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.template01-profile-prescription-subtitle {
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29
+}
+
+.template01-profile-prescription-preview {
+    border: 2px;
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    width: 100%
+}
+
+.template01-profile-prescription-preview-clinic-details {
+    padding: 0 0 0 10px
+}
+
+.template01-profile-prescription-preview * {
+    font-size: 8px!important
+}
+
+.template01-muted-text {
+    color: var(--oslo-gray);
+    padding-top: 5px
+}
+
+.template01-profile-prescription-preview-header-container {
+    align-items: center;
+    display: flex;
+    margin-bottom: 10px
+}
+
+.template01-profile-prescription-preview-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2px
+}
+
+.template01-profile-prescription-preview-divider {
+    background-color: var(--violet);
+    height: 1px;
+    margin-top: 4px
+}
+
+.template01-profile-prescription-preview-divider-thick {
+    background-color: gray;
+    height: 2px
+}
+
+.template01-profile-prescription-preview-section-container {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    height: 70%;
+    margin-top: 12px
+}
+
+.template01-profile-prescription-preview-section-name {
+    font-weight: 800;
+    text-decoration: underline
+}
+
+.template01-profile-prescription-preview-list {
+    padding-inline-start:12px}
+
+.template01-display-flex-space-between {
+    display: flex;
+    justify-content: space-between
+}
+
+.template01-profile-prescription-preview-clinic-details .__doc-name-phone-no {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.__clinic-details .__hospital-address  .template01-profile-prescription-preview-clinic-details .__doc-qualification span {
+    font-weight: 400
+}
+
+.template01-profile-prescription-preview-clinic-details .__clinic-details {
+    margin-top: 8px
+}
+
+.template01-profile-prescription-preview .__clinic-details .__hospital-name  .template01-profile-prescription-preview .__doc-name-phone-no .__doc-name {
+    color: var(--violet);
+    font-size: 9px!important;
+    font-weight: 700
+}
+
+.__doc-name-phone-no .__phone-no {
+    color: var(--violet);
+    font-weight: 500;
+    text-align: right
+}
+
+.template01-profile-prescription-preview-footer {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%
+}
+
+.template01-profile-prescription-preview-clinic-icon {
+    text-align: center
+}
+
+.template01-profile-prescription-preview-empty {
+    flex: 1 1
+}
+
+.template01-profile-prescription-preview-doctor-signature-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px
+}
+
+.template01-profile-prescription-preview-tagline {
+    color: var(--violet);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.88;
+    text-align: center
+}
+
+.template01-profile-prescription-preview-doctor-signature {
+    text-align: center
+}
+
+.template01-profile-prescription-preview-hospital-logo {
+    align-items: center;
+    align-self: center;
+    cursor: default;
+    height: 40px;
+    object-fit: contain;
+    width: 40px
+}
+
+.template01-profile-prescription-preview-patient-name {
+    font-weight: 700
+}
+
+.template01-edit-prescription-section {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    padding: 18px 16px
+}
+
+.template01-edit-prescription-sub-text-div {
+    color: var(--tundora);
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    padding-left: 32px
+}
+
+.template01-edit-prescription-div {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.template01-blue-text {
+    color: var(--scampi)
+}
+
+.template01-black-text {
+    color: #000
+}
+
+.template01-edit-prescription-title {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 8px
+}
+
+.template01-edit-prescription-icon:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.template01-edit-prescription-title:hover {
+    color: var(--scampi);
+    text-decoration: underline
+}
+
+.template01-edit-prescription-title:active {
+    color: var(--scarlet-gum)
+}
+
+.template01-padding-left32 {
+    padding-left: 32px
+}
+
+.template01-padding-right32 {
+    padding-right: 32px
+}
+
+.template01-profile-prescription-preview-section-name-content {
+    margin-bottom: 14px
+}
+
+.text-align-right {
+    text-align: right
+}
+
+@media screen and (min-width: 1900px) {
+    .template01-profile-prescription-preview * {
+        font-size:12px!important
+    }
+
+    .template01-profile-prescription-preview-hospital-logo {
+        object-fit: contain;
+        width: 96px
+    }
+}
+
+.__quick-prescription-header-template01 {
+    margin-bottom: 2px!important;
+    padding: 18px 32px 0
+}
+
+.__quick-prescription-header-template01 .template01-profile-prescription-preview-header-container {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.__quick-prescription-header-template01 .template01-profile-prescription-preview-hospital-logo {
+    height: 60px;
+    width: 60px
+}
+
+.__quick-prescription-header-template01 .__doc-name  .__quick-prescription-header-template01 .__hospital-name {
+    color: var(--violet);
+    font-size: 14px!important;
+    font-weight: 700
+}
+
+.__quick-prescription-header-template01 .__phone-no {
+    text-align: right
+}
+
+.__quick-prescription-header-template01 .__doc-qualification  .__quick-prescription-header-template01 .__hospital-address  .__quick-prescription-header-template01 .__phone-no {
+    font-size: 12px!important
+}
+
+.template02-profile-prescription-tittle {
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.template02-profile-prescription-subtitle {
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29
+}
+
+.no-bold-font {
+    font-weight: 400
+}
+
+.template02-profile-prescription-preview {
+    border: 2px;
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    width: 100%
+}
+
+.template02-profile-prescription-preview-clinic-details {
+    padding: 0 10px 0 0
+}
+
+.template02-profile-prescription-preview * {
+    font-size: 8px!important
+}
+
+.template02-profile-prescription-preview-header-container {
+    margin-bottom: 8px
+}
+
+.template02-profile-prescription-preview-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 2px
+}
+
+.template02-profile-prescription-preview-divider {
+    background-color: var(--violet);
+    height: 1px;
+    margin-top: 4px
+}
+
+.template02-profile-prescription-preview-divider-thick {
+    background-color: gray;
+    height: 2px
+}
+
+.template02-profile-prescription-preview-section-container {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    height: 70%;
+    margin-top: 12px
+}
+
+.template02-profile-prescription-preview-section-name {
+    font-weight: 800;
+    text-decoration: underline
+}
+
+.template02-profile-prescription-preview-list {
+    padding-inline-start:12px}
+
+.template02-display-flex-space-between {
+    display: flex;
+    justify-content: space-between
+}
+
+.template02-profile-prescription-preview-clinic-details .__doc-name-phone-no {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.__clinic-details .__hospital-address  .template02-profile-prescription-preview-clinic-details .__doc-qualification span {
+    font-weight: 400
+}
+
+.template02-profile-prescription-preview-clinic-details .__clinic-details {
+    margin-top: 8px
+}
+
+.template02-profile-prescription-preview .__clinic-details .__hospital-name  .template02-profile-prescription-preview .__doc-name-phone-no .__doc-name {
+    color: var(--violet);
+    font-size: 9px!important;
+    font-weight: 700
+}
+
+.template02-profile-prescription-preview .__doc-name-phone-no .__phone-no {
+    color: var(--violet);
+    font-weight: 500;
+    text-align: right
+}
+
+.template02-profile-prescription-preview-footer {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%
+}
+
+.template02-profile-prescription-preview-empty {
+    flex: 1 1
+}
+
+.template02-profile-prescription-preview-doctor-signature-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px
+}
+
+.template02-profile-prescription-preview-tagline {
+    color: var(--violet);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.88;
+    text-align: center
+}
+
+.template02-profile-prescription-preview-clinic-icon  .template02-profile-prescription-preview-doctor-signature {
+    text-align: center
+}
+
+.template02-profile-prescription-preview-hospital-logo {
+    align-items: center;
+    cursor: default;
+    height: 40px;
+    object-fit: contain;
+    width: 40px
+}
+
+.template02-profile-prescription-preview-patient-name {
+    font-weight: 700
+}
+
+.template02-edit-prescription-section {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    padding: 18px 16px
+}
+
+.template02-edit-prescription-sub-text-div {
+    color: var(--tundora);
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    padding-left: 32px
+}
+
+.template02-edit-prescription-div {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.template02-blue-text {
+    color: var(--scampi)
+}
+
+.template02-black-text {
+    color: #000
+}
+
+.template02-muted-text {
+    color: var(--oslo-gray);
+    padding-top: 5px
+}
+
+.template02-edit-prescription-title {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 8px
+}
+
+.template02-edit-prescription-icon:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.template02-edit-prescription-title:hover {
+    color: var(--scampi);
+    text-decoration: underline
+}
+
+.template02-edit-prescription-title:active {
+    color: var(--scarlet-gum)
+}
+
+.template02-padding-left32 {
+    padding-left: 32px
+}
+
+.template02-padding-right32 {
+    padding-right: 32px
+}
+
+.bold-800 {
+    font-weight: 800
+}
+
+.flex-1 {
+    flex: 1 1
+}
+
+.template02-profile-prescription-preview-section-name-content {
+    margin-bottom: 14px
+}
+
+.text-align-left {
+    text-align: left
+}
+
+@media screen and (min-width: 1900px) {
+    .template02-profile-prescription-preview * {
+        font-size:12px!important
+    }
+
+    .template02-profile-prescription-preview-hospital-logo {
+        object-fit: contain;
+        width: 100%
+    }
+}
+
+.template02-profile-prescription-preview-appointment-details {
+    text-align: right
+}
+
+.__quick-prescription-header-template02 {
+    padding: 18px 32px 0
+}
+
+.__quick-prescription-header-template02 .template01-profile-prescription-preview-header-container {
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px
+}
+
+.__quick-prescription-header-template02 .template01-profile-prescription-preview-hospital-logo {
+    align-items: center;
+    height: 40px;
+    object-fit: contain;
+    width: 40px
+}
+
+.__quick-prescription-header-template02 .__doc-name  .__quick-prescription-header-template02 .__hospital-name {
+    color: var(--violet);
+    font-size: 14px!important;
+    font-weight: 700
+}
+
+.__quick-prescription-header-template02 .__phone-no {
+    text-align: right
+}
+
+.__quick-prescription-header-template02 .__doc-qualification  .__quick-prescription-header-template02 .__hospital-address  .__quick-prescription-header-template02 .__phone-no {
+    font-size: 12px!important
+}
+
+.__quick-prescription-header-template02 .template02-profile-prescription-preview-hospital-logo {
+    height: 60px;
+    width: 60px
+}
+
+.template03-profile-prescription-tittle {
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.bold-font {
+    font-weight: 500
+}
+
+.template03-profile-prescription-subtitle {
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29
+}
+
+.template03-profile-prescription-preview {
+    border: 2px;
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    width: 100%
+}
+
+.template03-profile-prescription-preview * {
+    font-size: 8px!important
+}
+
+.template04-muted-text {
+    color: var(--oslo-gray);
+    padding-top: 5px
+}
+
+.margin-top4 {
+    margin-top: 4px
+}
+
+.template03-profile-prescription-preview-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    justify-content: space-between;
+    position: relative;
+    top: 2px
+}
+
+.template03-profile-prescription-preview-header-container {
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px;
+    width: 100%
+}
+
+.template03-profile-prescription-preview-clinic-details {
+    flex-basis: 40%;
+    font-size: 12px;
+    min-width: 40%;
+    text-align: right
+}
+
+.template03-profile-prescription-preview-doctor-details {
+    flex-basis: 40%;
+    font-size: 12px;
+    min-width: 40%
+}
+
+.template03-profile-prescription-preview-clinic-icon {
+    flex-basis: 20%;
+    min-width: 20%;
+    text-align: center
+}
+
+.template03-profile-prescription-preview-muted-text {
+    color: var(--oslo-gray);
+    padding-top: 5px
+}
+
+.template03-profile-prescription-preview-patient-name {
+    font-weight: 700
+}
+
+.template03-profile-prescription-preview-divider {
+    background-color: var(--violet);
+    height: 1px;
+    margin-top: 4px
+}
+
+.template03-profile-prescription-preview-divider-thick {
+    background-color: gray;
+    height: 2px
+}
+
+.template03-profile-prescription-preview-section-container {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 65% auto;
+    margin-top: 12px;
+    min-height: 65%
+}
+
+.template03-profile-prescription-preview-section-name {
+    font-weight: 800;
+    text-decoration: underline
+}
+
+.template03-profile-prescription-preview-list {
+    padding-inline-start:12px}
+
+.template03-display-flex-space-between {
+    display: flex;
+    justify-content: space-between
+}
+
+.template03-profile-prescription-preview-footer {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%
+}
+
+.template03-profile-prescription-preview-empty {
+    flex: 1 1
+}
+
+.template03-profile-prescription-preview-doctor-signature-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px
+}
+
+.template03-profile-prescription-preview-tagline {
+    font-weight: 700
+}
+
+.template03-profile-prescription-preview-doctor-signature {
+    text-align: center
+}
+
+.template03-profile-prescription-preview-hospital-logo {
+    align-items: center;
+    cursor: default;
+    height: 40px;
+    object-fit: contain;
+    width: 40px
+}
+
+.width-96 {
+    height: 60px;
+    width: 60px
+}
+
+.template03-edit-prescription-section {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    padding: 18px 16px
+}
+
+.template03-edit-prescription-sub-text-div {
+    color: var(--tundora);
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1template03-15;
+    margin-bottom: 12px;
+    padding-left: 32px
+}
+
+.template03-edit-prescription-div {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.template03-blue-text {
+    color: var(--scampi)
+}
+
+.template03-black-text {
+    color: #000
+}
+
+.template03-edit-prescription-title {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 8px
+}
+
+.template03-edit-prescription-icon:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.template03-edit-prescription-title:hover {
+    color: var(--scampi);
+    text-decoration: underline
+}
+
+.template03-edit-prescription-title:active {
+    color: var(--scarlet-gum)
+}
+
+.template03-prescription-template-watermark {
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: 70%!important;
+    height: 70%
+}
+
+.template03-profile-prescription-preview-tagline {
+    color: var(--violet);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.88;
+    text-align: center
+}
+
+@media screen and (min-width: 1900px) {
+    .template03-profile-prescription-preview * {
+        font-size:12px!important
+    }
+
+    .template03-profile-prescription-preview-hospital-logo {
+        border-radius: 48px;
+        width: 96px
+    }
+}
+
+.__quick-prescription-header-template03 {
+    padding: 18px 32px 0
+}
+
+.__quick-prescription-header-template03 .template01-profile-prescription-preview-header-container {
+    align-items: center;
+    display: flex;
+    margin-bottom: 8px
+}
+
+.__quick-prescription-header-template03 .template01-profile-prescription-preview-hospital-logo {
+    width: 100%
+}
+
+.__quick-prescription-header-template03 .__doc-name  .__quick-prescription-header-template03 .__hospital-name {
+    font-size: 14px!important
+}
+
+.__quick-prescription-header-template03 .__doc-qualification  .__quick-prescription-header-template03 .__hospital-address  .__quick-prescription-header-template03 .__phone-no {
+    font-size: 12px!important
+}
+
+.bold-font {
+    font-weight: 600
+}
+
+.template04-font12 {
+    font-size: 12px
+}
+
+.template04-profile-prescription-tittle {
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.template04-profile-prescription-subtitle {
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29
+}
+
+.template04-profile-prescription-preview-clinic-icon {
+    width: 70%
+}
+
+.template04-profile-prescription-preview {
+    border: 2px;
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    position: relative;
+    width: 100%
+}
+
+.template04-profile-prescription-preview * {
+    font-size: 8px!important
+}
+
+.template04-profile-prescription-preview-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px
+}
+
+.template04-flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px!important;
+    justify-content: space-between
+}
+
+.template04-spl_and_qual {
+    flex-basis: 0;
+    flex-grow: 3;
+    font-size: 12px
+}
+
+.template04-mrn {
+    color: var(--oslo-gray);
+    flex-basis: 0;
+    flex-grow: 1;
+    font-size: 12px;
+    padding-left: 5px
+}
+
+.template04-profile-prescription-preview-container {
+    position: relative;
+    top: 2px
+}
+
+.template04-profile-prescription-preview-divider {
+    background-color: var(--violet);
+    height: 1px
+}
+
+.template04-profile-prescription-preview-divider-thick {
+    background-color: gray;
+    height: 2px
+}
+
+.template04-profile-prescription-preview-section-container {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 65% auto;
+    margin-top: 12px;
+    min-height: 65%
+}
+
+.template04-profile-prescription-preview-section-name {
+    font-weight: 800;
+    text-decoration: underline
+}
+
+.template04-profile-prescription-preview-list {
+    padding-inline-start:12px}
+
+.template04-display-flex-space-between {
+    display: flex;
+    justify-content: space-between
+}
+
+.template04-profile-prescription-preview-clinic-details {
+    font-weight: 700;
+    text-align: right
+}
+
+.template04-profile-prescription-preview-footer {
+    bottom: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 100%
+}
+
+.template04-profile-prescription-preview-empty {
+    flex: 1 1
+}
+
+.template04-profile-prescription-preview-doctor-signature-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px
+}
+
+.template04-profile-prescription-preview-tagline {
+    font-weight: 700
+}
+
+.template04-profile-prescription-preview-doctor-signature {
+    text-align: center
+}
+
+.template04-profile-prescription-preview-hospital-logo {
+    width: 40px
+}
+
+.template04-profile-prescription-preview-patient-details {
+    font-weight: 700
+}
+
+.template04-edit-prescription-section {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    padding: 18px 16px
+}
+
+.template04-edit-prescription-sub-text-div {
+    color: var(--tundora);
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    padding-left: 32px
+}
+
+.template04-edit-prescription-div {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.template04-blue-text {
+    color: var(--scampi)
+}
+
+.template04-black-text {
+    color: #000
+}
+
+.template04-edit-prescription-title {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 8px
+}
+
+.template04-edit-prescription-icon:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.template04-edit-prescription-title:hover {
+    color: var(--scampi);
+    text-decoration: underline
+}
+
+.template04-edit-prescription-title:active {
+    color: var(--scarlet-gum)
+}
+
+.template04-profile-prescription-preview-doc-name {
+    color: inherit;
+    font-size: 14px!important;
+    font-weight: 600;
+    margin-bottom: 5px
+}
+
+.template04-prescription-template-watermark {
+    height: 70%
+}
+
+.template04-profile-prescription-preview-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.template04-profile-prescription-preview-patient-name {
+    font-weight: 700
+}
+
+.template04-profile-prescription-preview-tagline {
+    color: var(--violet);
+    font-size: 8px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.88;
+    text-align: center
+}
+
+.template04-profile-prescription-preview-tagline-left {
+    display: flex
+}
+
+.template04-profile-prescription-preview-tagline-left .margin-right8 img {
+    width: 20px
+}
+
+@media screen and (min-width: 1900px) {
+    .template04-profile-prescription-preview * {
+        font-size:12px!important
+    }
+}
+
+.template01-profile-prescription-preview-appointment-details {
+    text-align: right
+}
+
+.__quick-pres-service-offered-div .__service-label  .__service-offered-div .__service-label {
+    font-weight: 700
+}
+
+.__quick-pres-service-offered-div .__service-value  .__service-offered-div .__service-value {
+    font-weight: 500
+}
+
+.__service-offered-div .__service-label  .__service-offered-div .__service-value {
+    font-size: 9px!important
+}
+
+.__quick-pres-service-offered-div {
+    margin-top: 4px
+}
+
+.__quick-pres-service-offered-div .__service-label  .__quick-pres-service-offered-div .__service-value {
+    font-size: 12px!important
+}
+
+.template05-profile-prescription-tittle {
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.25
+}
+
+.template05-profile-prescription-subtitle {
+    color: var(--violet);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.29
+}
+
+.template05-profile-prescription-preview-clinic-icon {
+    width: 70%
+}
+
+.template05-profile-prescription-preview {
+    background-color: var(--white);
+    box-shadow: 0 3px 8px 0 rgba(var(--violet-rgb)  .25);
+    height: 100%;
+    min-height: calc(100vh - 78px);
+    padding: 42px 32px;
+    position: relative;
+    width: 100%
+}
+
+.template05-profile-prescription-preview * {
+    font-size: 8px!important
+}
+
+.template05-profile-prescription-preview-header-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between
+}
+
+.header-container-padding {
+    padding: 20px 32px 10px
+}
+
+.template05-profile-prescription-preview-container {
+    display: flex;
+    justify-content: space-between
+}
+
+.template05-profile-prescription-preview-divider {
+    background-color: var(--violet);
+    height: 1px
+}
+
+.template05-profile-prescription-preview-divider-thick {
+    background-color: gray;
+    height: 2px
+}
+
+.template05-profile-prescription-preview-section-container {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 65% auto;
+    margin-top: 12px;
+    min-height: 65%
+}
+
+.template05-profile-prescription-preview-section-name {
+    font-weight: 800;
+    text-decoration: underline
+}
+
+.template05-profile-prescription-preview-list {
+    padding-inline-start:12px}
+
+.template05-display-flex-space-between {
+    display: flex;
+    justify-content: space-between
+}
+
+.template05-profile-prescription-preview-clinic-details {
+    font-weight: 700;
+    text-align: right
+}
+
+.template05-profile-prescription-preview-footer {
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 85%
+}
+
+.template05-profile-prescription-preview-empty {
+    flex: 1 1
+}
+
+.template05-profile-prescription-preview-doctor-signature-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px
+}
+
+.template05-profile-prescription-preview-tagline {
+    font-weight: 700;
+    text-align: center
+}
+
+.template05-profile-prescription-preview-doctor-signature {
+    text-align: center
+}
+
+.template05-profile-prescription-preview-hospital-logo {
+    width: 40px
+}
+
+.template05-profile-prescription-preview-patient-details {
+    font-weight: 700
+}
+
+.template05-edit-prescription-section {
+    background-color: var(--white);
+    border: 1px solid var(--alto8);
+    border-radius: 8px;
+    padding: 18px 16px
+}
+
+.template05-edit-prescription-sub-text-div {
+    color: var(--tundora);
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.15;
+    margin-bottom: 12px;
+    padding-left: 32px
+}
+
+.template05-edit-prescription-div {
+    display: flex;
+    margin-bottom: 8px
+}
+
+.template05-blue-text {
+    color: var(--scampi)
+}
+
+.template05-black-text {
+    color: #000
+}
+
+.template05-edit-prescription-title {
+    color: var(--scampi);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-left: 8px
+}
+
+.template05-edit-prescription-icon:hover {
+    background-color: var(--alto8);
+    border-radius: 4px
+}
+
+.template05-edit-prescription-title:hover {
+    color: var(--scampi);
+    text-decoration: underline
+}
+
+.template05-edit-prescription-title:active {
+    color: var(--scarlet-gum)
+}
+
+.padding-left32 {
+    padding-left: 32px
+}
+
+.padding-right32 {
+    padding-right: 32px
+}
+
+@media screen and (min-width: 1900px) {
+    .template05-profile-prescription-preview * {
+        font-size:12px!important
+    }
+}
+
+.__quick-prescription-header-template05 {
+    padding: 18px 32px
+}
+
+.marketingMaterialModal__title {
+    color: var(--violet);
+    font-size: 28px;
+    font-weight: 700
+}
+
+.marketingMaterialModal__subTitle {
+    color: var(--silver6);
+    font-size: 16px;
+    font-weight: 400
+}
+
+.marketingMaterialModal__divider {
+    border-bottom: 2px solid var(--alto8);
+    margin-top: 12px;
+    width: 100%
+}
+
+.marketingMaterialModal__closeIcon {
+    display: flex;
+    margin: 12px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.marketingMaterialModal__closeIcon:hover {
+    background: var(--alto8);
+    border-radius: 4px
+}
+
+.marketingMaterialModal__actions {
+    align-items: center;
+    box-shadow: 0 -3px 14px 0 rgba(var(--violet-rgb)  .08);
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5px;
+    padding: 16px 36px;
+    width: 100%
+}
+
+.marketingMaterialModal__actions__submit  .marketingMaterialModal__actions__submit-disabled {
+    align-items: flex-end;
+    background-color: var(--scampi);
+    border: 1px solid var(--scampi);
+    border-radius: 4px;
+    color: var(--white);
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 40px;
+    padding: 10px 16px
+}
+
+.marketingMaterialModal__actions__submit-disabled {
+    background-color: var(--white)!important;
+    border: 1px solid var(--scampi)!important;
+    color: var(--scampi)!important;
+    cursor: default!important
+}
+
+.marketingMaterialModal__actions__submit-disabled:hover  .marketingMaterialModal__actions__submit:hover {
+    background-color: var(--scarlet-gum);
+    border: 1px solid var(--scarlet-gum);
+    cursor: pointer
+}
+
+.marketingMaterialModal__actions__submit-disabled:focus  .marketingMaterialModal__actions__submit:focus {
+    outline: 0
+}
+
+.marketingMaterialModal__actions__submit-disabled:active  .marketingMaterialModal__actions__submit:active {
+    background-color: var(--scarlet-gum);
+    border: 1px solid var(--scarlet-gum);
+    cursor: pointer
+}
+
+.marketingMaterialModal__actions__cancel {
+    align-items: flex-end;
+    background-color: var(--white);
+    border: none;
+    border-radius: 4px;
+    color: var(--violet);
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 16px
+}
+
+.marketingMaterialModal__actions__cancel:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.marketingMaterialModal__actions__cancel:focus {
+    outline: 0
+}
+
+.marketingMaterialModal__actions__cancel:active {
+    color: var(--scampi);
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.marketingMaterialModal__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%
+}
+
+.marketingMaterialModal__content__left {
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+
+.marketingMaterialModal__content__left__block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.marketingMaterialModal__content__left__block__title {
+    color: var(--violet);
+    font-size: 16px;
+    font-weight: 700
+}
+
+.marketingMaterialModal__content__left__block__backSide {
+    align-items: center;
+    background: var(--scampi);
+    border: 1px solid var(--scampi);
+    display: flex;
+    flex-direction: column;
+    height: 183px;
+    justify-content: space-between
+}
+
+.marketingMaterialModal__content__left__block__backSide__text {
+    color: var(--white) ffe;
+    font-size: 11px;
+    letter-spacing: normal;
+    line-height: 1.14;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 75%
+}
+
+.marketingMaterialModal__content__left__block__backSide__qr {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    margin-top: 20px
+}
+
+.marketingMaterialModal__content__left__block__frontSide {
+    align-items: center;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    height: 183px;
+    justify-content: space-between
+}
+
+.marketingMaterialModal__content__left__block__frontSide__doctorInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    margin-top: 15px
+}
+
+.marketingMaterialModal__content__left__block__frontSide__doctorInfo__doctorName {
+    color: var(--scampi);
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: -.01px;
+    text-align: center
+}
+
+.marketingMaterialModal__content__left__block__frontSide__doctorInfo__doctorSpeciality {
+    color: var(--tundora);
+    font-size: 10px;
+    margin-bottom: 2px;
+    text-align: center
+}
+
+.marketingMaterialModal__content__left__block__frontSide__doctorInfo__doctorQualificaton {
+    color: var(--tundora);
+    font-size: 10px;
+    text-align: center
+}
+
+.marketingMaterialModal__content__left__block__frontSide__supplierInfo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: normal
+}
+
+.marketingMaterialModal__content__left__block__frontSide__supplierInfo__supplierName {
+    color: var(--tundora);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center
+}
+
+.marketingMaterialModal__content__left__block__frontSide__supplierInfo__supplierAddress {
+    color: var(--tundora);
+    font-size: 10px;
+    text-align: center
+}
+
+.marketingMaterialModal__content__left__block__frontSide__supplierInfo__supplierLocation {
+    color: var(--tundora);
+    font-size: 10px
+}
+
+.marketingMaterialModal__content__left__block__frontSide__contactInfo {
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.marketingMaterialModal__content__left__block__frontSide__contactInfo__heading {
+    color: var(--scampi);
+    font-weight: 800
+}
+
+.marketingMaterialModal__content__right {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    max-height: 430px;
+    overflow-y: scroll;
+    padding: 10px 10px 10px 25px;
+    width: 100%
+}
+
+.marketingMaterialModal__content__right__formTextField {
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.marketingMaterialModal__content__right__formTextField .location-fieldset:hover {
+    border: 1px solid var(--tundora)
+}
+
+.marketingMaterialModal__content__right__formTextField .location-fieldset:focus-within {
+    border: 2px solid var(--scampi)
+}
+
+.marketingMaterialModal__content__right__formDivider {
+    border-bottom: 2px solid var(--alto8);
+    margin-bottom: 20px;
+    width: 100%
+}
+
+.marketingMaterialModal__content__right__addOption {
+    color: var(--scampi);
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-top: -15px
+}
+
+.marketingMaterialModal__content__right__addOption:hover {
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.marketingMaterialModal__content__right__addOption:active {
+    color: var(--scarlet-gum);
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.max-width300>fieldset>div {
+    max-width: 300px
+}
+
+.timeInput_time_input_container__N11pN {
+    border: 1px solid rgba(var(--violet-rgb)  .3);
+    border-radius: 4px
+}
+
+.timeInput_time_input_container__N11pN  .timeInput_time_input_container_focused__UxMLg {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    padding: 5px;
+    position: relative;
+    width: 180px
+}
+
+.timeInput_time_input_container_focused__UxMLg {
+    border: 2px solid var(--scampi);
+    border-radius: 4px
+}
+
+.timeInput_time_input_container__N11pN:hover {
+    border: 1px solid rgba(var(--violet-rgb)  .24)
+}
+
+.timeInput_time_input_container__N11pN:focus {
+    border: 2px solid var(--scampi);
+    outline: none
+}
+
+.timeInput_time_iuput_time_holder__nO3Wo {
+    border: none
+}
+
+.timeInput_time_iuput_input__uJhUG {
+    border: none;
+    max-width: 30px;
+    text-align: center;
+    width: -webkit-max-content;
+    width: max-content
+}
+
+.timeInput_time_iuput_input__uJhUG:focus {
+    outline: none
+}
+
+.timeInput_time_input_icon_container__7OlSf {
+    cursor: default;
+    position: absolute;
+    right: 0;
+    width: 40px
+}
+
+.timeInput_time_input_icon__21sFL {
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translate(-50%  -50%)
+}
+
+.timeInput_time_iuput_select_containers__LYWFz {
+    background-color: var(--white);
+    border: 1px solid rgba(var(--violet-rgb)  .3);
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    position: absolute;
+    top: 100%;
+    transform: translateX(-50%);
+    z-index: 5
+}
+
+.timeInput_time_iuput_select_containers__LYWFz:focus {
+    outline: none
+}
+
+.timeInput_time_iuput_select__HJfgk {
+    background-color: var(--white);
+    box-sizing: border-box;
+    height: 200px;
+    overflow-y: scroll;
+    padding: 2px;
+    scrollbar-width: none;
+    text-align: center;
+    width: 54px
+}
+
+.timeInput_time_iuput_select__HJfgk p {
+    border-radius: 3px;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    width: 50px
+}
+
+
+.timeInput_time_iuput_select__HJfgk p:hover {
+    background-color: rgba(var(--scarlet-gum-rgb)  .04);
+    cursor: pointer
+}
+
+.print-settings-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 258px;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%
+}
+
+.scrollable-left {
+    height: 73vh;
+    overflow-y: scroll
+}
+
+.print-settings-main-sub-containers {
+    border: 1px solid var(--lighestgray);
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 15px;
+    width: 49%
+}
+
+.print-settings-main-sub-containers__heading {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: space-between;
+    margin-bottom: 5px
+}
+
+.print-settings-main-sub-containers__content {
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: space-between
+}
+
+.print-settings-main-sub-containers__content--image-container {
+    height: 120px;
+    width: 40%
+}
+
+.print-settings-main-sub-containers__content--image-container--image {
+    height: 150px;
+    object-fit: cover
+}
+
+.print-settings-main-sub-containers__content--text {
+    color: var(--gray4);
+    font-size: 16px;
+    font-weight: 600;
+    width: 60%
+}
+
+.common-box {
+    background: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 2px 32px #00000014;
+    margin: 0 10px 20px;
+    padding: 10px
+}
+
+.common-box .disabled-header {
+    background: var(--gray6);
+    opacity: .6;
+    pointer-events: none
+}
+
+.common-box .box-body {
+    margin-top: 20px
+}
+
+.disabled {
+    background: var(--gray6);
+    opacity: .6;
+    pointer-events: none
+}
+
+.common-heading {
+    color: var(--gray3);
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0
+}
+
+.common-heading__title {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 6px
+}
+
+.common-heading__sub {
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 14px
+}
+
+.common-heading__desc {
+    color: var(--gray3);
+    font-size: 11px;
+    margin: 0;
+    padding-left: 6px
+}
+
+.selected-sample-template-main-container {
+    height: 100%;
+    position: relative;
+    width: 100%
+}
+
+.template04-prescription-template-watermark {
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: 64%!important
+}
+
+.print-settings-options-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px
+}
+
+.print-settings-options-container__section {
+    border: .5px solid var(--gray-snuff);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 48%
+}
+
+.print-settings-options-container__section--heading {
+    background: var(--gray-snuff);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #4b4b4b;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 5px 5px 15px
+}

@@ -31,11 +31,15 @@ const DashbaordTableDisplay = ({ children }) => {
             <Typography>
             <Grid container spacing={2} tabSection data-testid="appointment-grid-container">
             <Grid container={tableBodyClasses.DashbaordTableDisplay} item xs={12} >
-                
+                <div className="__appointment-grid-container" data-testid="appointment-grid">   
+                <div className='MuiTableContainer-root __table-container css-kge0eu'>
+                    
                             <Grid component={Paper} rounded={true} elevation={1} role="grid" root>
                             { children }
                             </Grid>
-                      </Grid>  
+                </div>            
+                </div>            
+            </Grid>  
             </Grid>
             </Typography>
         </ThemeProvider>

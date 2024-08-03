@@ -62,7 +62,7 @@ const DashboardLayout = ({ children }) => {
 					<div className="col-md-3 col-lg-2 col-xl-1">
 						<DashboardSidebar />
 					</div>
-					<div className="col-md-9 col-lg-10 col-xl-11">
+					<div className="col-md-9 col-lg-10 col-xl-11 __doctor-dashboard-section">
 						<DashboardBanner/>
 						<DashboardFilter/>
 						<DashboardDahCard/>

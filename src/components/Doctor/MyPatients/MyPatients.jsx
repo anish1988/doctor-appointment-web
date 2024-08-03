@@ -10,7 +10,7 @@ import { Grid } from '@mui/material';
 import { Empty, Flex } from 'antd';
 import { styled } from '@mui/material/styles';
 import Paper from '@mui/material/Paper';
-import '../../../../src/test.css';
+//import '../../../../src/test.css';
 // import '../../../../src/bajaj';
 import { Tabs } from '@mui/base/Tabs';
 import { TabsList } from '@mui/base/TabsList';
