@@ -44,7 +44,7 @@ app.use((err: any, req: Request, res: Response, next: NextFunction) => {
     } else {
         res.status(httpStatus.NOT_FOUND).json({
             success: false,
-            message: 'Something Went Wrong',
+            message: 'Something Went Wrong 123',
         });
     }
     next();
